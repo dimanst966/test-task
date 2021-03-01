@@ -60,6 +60,7 @@ public class Bank {
         if (account == null) {
             return;
         }
+
         account.money = account.money - amount;
 
     }
